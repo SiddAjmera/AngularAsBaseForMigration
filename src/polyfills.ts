@@ -39,6 +39,19 @@
 /** IE10 and IE11 requires the following to support `@angular/animation`. */
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
+import 'jquery/dist/jquery';
+import 'angular/angular';
+import 'angular-animate/angular-animate';
+import 'angular-route/angular-route';
+import 'angular-resource/angular-resource';
+import 'bootstrap/dist/js/bootstrap';
+import 'core-js/client/shim.min';
+
+import 'app/core/phone/phone.module';
+import './app/core/core.module';
+import './app/phone-list/phone-list.module';
+import './app/phone-detail/phone-detail.module';
+import './app/app.module.ajs';
 
 /** Evergreen browsers require these. **/
 import 'core-js/es6/reflect';
